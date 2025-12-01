@@ -13,8 +13,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 border border-white/30 rounded-full flex items-center justify-center">
-              <span className="font-display font-semibold text-lg">C</span>
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img
+                src="/images/New Logo Transparent.png"
+                alt="Carlos Reyes Logo"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="font-display text-sm tracking-wide">
               CARLOS ERNESTO REYES
