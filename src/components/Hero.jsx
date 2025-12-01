@@ -226,13 +226,17 @@ export default function Hero({ mousePosition }) {
 
         {/* Center logo */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-          <div 
-            className="w-24 h-24 md:w-28 md:h-28 border border-white/40 rounded-full flex items-center justify-center bg-dark-900/80 backdrop-blur-sm"
+          <div
+            className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden bg-dark-900/80 backdrop-blur-sm"
             style={{
               boxShadow: '0 0 60px rgba(255,255,255,0.05), inset 0 0 30px rgba(255,255,255,0.03)'
             }}
           >
-            <span className="font-display text-4xl md:text-5xl font-light tracking-tight">C</span>
+            <img
+              src="/images/New Logo Transparent.png"
+              alt="Carlos Reyes Logo"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 

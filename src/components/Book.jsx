@@ -59,7 +59,9 @@ export default function Book() {
               {/* CTA buttons */}
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="#"
+                  href="https://www.amazon.es/dp/B0DNY3ZMXV"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-8 py-4 bg-white text-dark-900 font-medium rounded-full hover:bg-white/90 transition-colors"
                 >
                   Get the Book

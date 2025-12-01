@@ -26,8 +26,12 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 border border-white/30 rounded-full flex items-center justify-center group-hover:border-white/60 transition-colors">
-            <span className="font-display font-semibold text-lg">C</span>
+          <div className="w-10 h-10 rounded-full overflow-hidden group-hover:ring-2 group-hover:ring-white/30 transition-all">
+            <img
+              src="/images/New Logo Transparent.png"
+              alt="Carlos Reyes Logo"
+              className="w-full h-full object-cover"
+            />
           </div>
           <span className="font-display text-sm tracking-wide hidden sm:block">
             CARLOS ERNESTO REYES
