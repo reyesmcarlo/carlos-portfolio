@@ -17,7 +17,7 @@ export default function Contact() {
           {/* Contact options */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
             <a
-              href="mailto:your@email.com"
+              href="mailto:reyesmcarlo@gmail.com"
               className="group px-8 py-4 bg-white text-dark-900 font-medium rounded-full hover:bg-white/90 transition-all flex items-center justify-center gap-3"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ export default function Contact() {
               Send an Email
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/carlos-reyes-dasein/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 border border-white/20 rounded-full hover:bg-white/5 transition-colors flex items-center justify-center gap-3"
